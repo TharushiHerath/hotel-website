@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>hotel website</title>
+
+    <meta name="author" content="tharushi herath">
+    <meta name="viewport" content="width=device-width, initial=scle=1.0">
+  
+
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="gepotfox_0.png"/></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT US</a></li>
+                    <li><a href="galary.html">GALARY</a></li>
+                    <li><a href="contact us.html">CONTACT US</a></li>
+                    <li><a href="booking.html">BOOKING</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Golden Aurora Hotel</h1>
+            <H4>Enjoy your life</H4>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About us</h4>
+        <h5>ADDRESS : Aurora grands Hotel,galle,Sri Lanka.</h5>
+        <h5>EMAIL : reservations@aurorahotel.com</h5>
+        <h5>TELEPHONE : +94 114 123 888 ,+94 114 567 897</h5>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>DESIGN BY <i class="fa fa-heart-o"></i> THARUSHI HERATH</p>
+    </section>
+
+    <!-- Javascript -->
+<script>
+var navLink = document.getElementById('nav-links');
+function showMenu(){
+    navLink.style.right = "0";
+}
+ function hideMenu(){
+    navLink.style.right = "-200px";
+}
+</script>
+
+
+
+</body>
+
+</html>

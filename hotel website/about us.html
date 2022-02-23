@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hotel webpage</title>
+        <meta name="author" content="tharushi herath">
+        <meta name="viewport" content="width=device-width, initial=scle=1.0">
+
+
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+
+    <body>
+
+        <section class=" sub-header">
+            <nav>
+                <a href="index.html"><img src="gepotfox_0.png"/></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about us.html">ABOUT US</a></li>
+                        <li><a href="galary.html">GALARY</a></li>
+                        <li><a href="contact us.html">CONTACT US</a></li>
+                        <li><a href="booking.html">BOOKING</a></li>
+                    </ul>
+    
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+
+        </section>
+
+        <!--about content-->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>LUXURY HOTEL</h1>
+                    <p>Would you like to stay in the best beach hotels in Sri Lanka? From boutique hotels to laidback cabanas and luxury resorts, Experience Travel Group will ensure you find the kind of beautiful holiday resorts in Sri Lanka that suit you best. There are miles and miles of palm-fringed, sandy beaches, with fantastic luxury hotels and resorts.
+                        Our experts have travelled widely across the island and handpicked the best luxury beach hotels in Sri Lanka. We consider these to be the best of the best in terms of character, size, luxury and style. Key to your selection will be the area: you need to decide if you want to be busy or relaxed, have the beach to yourself or have access to local restaurants.
+                        There are of course many more beachside hotels in Sri Lanka than we have listed here. You might prefer to talk to one of our expert consultants. Contact us today for a chat. 
+                        Another option could be a beach villa. To see how these beach hotels could slot into your trip, have a look at our suggested Sri Lanka holiday ideas. </p>
+
+                    
+                </div>
+
+                <div class="about-col">
+                    <img src="24.png"/>
+                </div>
+            </div>
+        </section>
+
+       
+        <!--footer-->
+
+        <section class="footer">
+            <h4>About us</h4>
+            <h5>ADDRESS : Aurora grands Hotel,galle,Sri Lanka.</h5>
+            <h5>EMAIL : reservations@aurorahotel.com</h5>
+            <h5>TELEPHONE : +94 114 123 888 ,+94 114 567 897</h5>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+    
+            </div>
+            <p>DESIGN BY <i class="fa fa-heart-o"></i> THARUSHI HERATH</p>
+        </section>
+
+        <!-- Javascript -->
+<script>
+    var navLink = document.getElementById('nav-links');
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+     function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+</script>
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="Madushan Wickramaarachchi" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+   
+	
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class=" sub-header">
+        <nav>
+            <a href="index.html"><img src="gepotfox_0.png"/></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT US</a></li>
+                    <li><a href="galary.html">GALARY</a></li>
+                    <li><a href="contact us.html">CONTACT US</a></li>
+                    <li><a href="booking.html">BOOKING</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        
+
+    </section>  
+
+<!------- Contact content ------->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63485.87591773611!2d80.22131913397428!3d6.012959638705853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173a2d8360235%3A0xdf2f74057e1c0bdb!2sLe%20Grand%20Galle!5e0!3m2!1sen!2slk!4v1642845142684!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Aurora grands Hotel</h5>
+                    <p>,galle,Sri Lanka.</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+94 114 123 888 </h5>
+                    <h5>+94 114 567 897</h5>
+                    <p>Monday to Sunday, Open 24 hours</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>reservations@aurorahotel.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+           <form action="">
+                <input type="text" placeholder="Enter Your Name" required="required" />
+                <input type="email" placeholder="Enter Email Address" required="required" />
+                <textarea rows="8" placeholder="comments" required="required" ></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+           </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+     <h4>About Us </h4>
+     <h5>ADDRESS : Aurora grands Hotel,galle,Sri Lanka.</h5>
+     <h5>EMAIL : reservations@aurorahotel.com</h5>
+     <h5>TELEPHONE : +94 114 123 888 ,+94 114 567 897</h5>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+     </div>
+     <p>DESIGN BY <i class="fa fa-heart-o"></i>  THARUSHI HERATH</p>
+</section>
+
+
+<!-- Javascript -->
+<script>
+    var navLink = document.getElementById('nav-links');
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+     function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
